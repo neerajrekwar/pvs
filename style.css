@@ -1,3 +1,34 @@
-h1, h2 {
-  font-family: Lato;
+*{
+  font-family: 'Courier New', Courier, monospace;
 }
+
+
+body{
+  background: aqua;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: none;
+    font-size: 2em 100px / 1em 50px;
+  }
+  body {
+    background: rgba(0, 3, 7, 0.753);
+    background-image: url(images/bg-wlpar.jpg);
+    width: 100%;
+    -o-object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: fill;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  
+}
+
+@media screen and (min-width: 1024px) {
+  
+}
+/*#
