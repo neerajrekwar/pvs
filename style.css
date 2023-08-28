@@ -1,27 +1,20 @@
 *{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'alata', sans-serif;
+  background-color: aqua;
 }
 
 
 body{
-  background: aqua;
+
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 467px) {
   nav {
     display: none;
     font-size: 2em 100px / 1em 50px;
   }
   body {
-    background: rgba(0, 3, 7, 0.753);
-    background-image: url(images/bg-wlpar.jpg);
-    width: 100%;
-    -o-object-fit: cover;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    object-fit: fill;
+    background-color: aqua;
   }
 }
 @media screen and (min-width: 767px) and (max-width: 1023px) {
